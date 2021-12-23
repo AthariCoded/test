@@ -1,0 +1,56 @@
+HTML 
+----
+tags:
+    open <img /> has attributes like (src="..") key value
+                    alt if scr didnt open
+    close <h1></h1>
+elemnt: contains tag and content
+    in-line ( ex: formatting tags)
+    block
+
+attributes: for tags
+    src href
+    title
+    alt
+    style
+    class
+    width height
+    --------------------
+    Github:
+    ------
+    clone 
+    add
+    commit
+    push
+    pull
+
+    <head> for the browser</head>
+    <body> what we see in the page</body>
+
+======================
+CSS:
+----
+Selector (h1 img #id)
+props: value;
+<style> </style> inside <head></head>
+<div></div> <span></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,3 @@
-<!-- elements 
-    closed <h1> content </h1>
-    open  <img  attributes >
-tags (part of elements) p h1 img -->
-<!-- block element vs inline element -->
-<!-- formatting tag -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,44 +5,95 @@ tags (part of elements) p h1 img -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+      p {
+        /* props:value */
+        color: aqua;
+      }
+      .blue {
+        color: blue;
+      }
+      .red {
+        color: red;
+      }
+      .bold {
+        font-weight: bold;
+      }
+
+      #uniqueParagraph {
+        text-decoration: underline;
+      }
+      .width-100 {
+        width: 50%;
+      }
+      .black {
+        color: black;
+      }
+      .background-purple {
+        background-color: purple;
+      }
+      .background-yellow {
+        background-color: yellow;
+      }
+      .border {
+        /* size type color */
+        /* border: 20px solid #457b9d; */
+        border-bottom: 10px dashed #457b9d;
+      }
+      .rounded {
+        border-radius: 50%;
+      }
+      .border {
+        border: 2px solid black;
+      }
+
+      .padding {
+        padding-top: 100px;
+      }
+
+      .margin {
+        margin-bottom: 100px;
+      }
+
+      .edit {
+        border: 1px solid blue;
+        padding: 15px;
+        margin: 10px;
+      }
+      .center {
+        text-align: center;
+      }
+      .rtl {
+        direction: rtl;
+      }
+    </style>
   </head>
   <body>
-    <h1 title="header" style="background-color: grey">h1</h1>
-    <h2>h2</h2>
-    <h3 style="background-color: blue">h3</h3>
-    <h4>h4</h4>
-    <h5>h5</h5>
-    <h6>h6</h6>
-
-    <p>
-      <!-- formatting tags -->
-      this <b>is</b> <strong>is</strong> <i>is</i> <em>is</em> <mark>is</mark>
-      <del>is </del> <ins>is </ins> <sub>is</sub> <sup>is</sup> a paragraph
-      <q> never give up</q>
-      <br />
-      <q>dont give up</q>
-      <br />
-      <a href="https://google.com"> click here</a>
+    <!-- <p class="edit">Hello</p> -->
+    <!-- class name can have space -->
+    <div class="background-purple rtl">
+      <p class="red" id="uniqueParagraph">test red</p>
+      <img
+        class="width-100 rounded"
+        src="https://cdn5.vectorstock.com/i/1000x1000/80/64/hello-word-text-with-handwritten-rainbow-vibrant-vector-23928064.jpg"
+        alt="apple"
+      />
+      <p class="red" id="uniqueParagraph">words in arabic</p>
+      <p class="blue bold background-yellow">test blue</p>
+    </div>
+    <p class="blue bold border padding margin">
+      this is a <span class="black">paragraph</span> too
     </p>
-    <a href="https://google.com"> Google </a>
-
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/2/28/HelloWorld.svg"
-      alt="hello world"
-      width="150"
-      height="50"
-      title="this is a picture"
-    />
-    <address>eng collage</address>
+    <p class="red bold">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+      cupiditate, totam adipisci delectus necessitatibus alias, quam dolorum
+      reprehenderit at fugit, quos expedita rem provident illo. Maxime dicta
+      praesentium est architecto explicabo excepturi in distinctio quia qui
+      eligendi. Quis enim accusamus possimus animi quaerat recusandae! Quos amet
+      vel nobis corrupti incidunt.
+    </p>
+    <!-- <div> contains the elements
+    </div> -->
   </body>
 </html>
-<!-- <!DOCTYPE html>
-
-<html>
-  <head>
-    <title>Web Class</title>
-  </head>
-  <body>
-   
-  </body>
-</html> -->
